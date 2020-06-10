@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="mx-auto my-3 text-light justify-content-around row" style="width: max-content; ">
+      <div class="col-6"> 
+        <label for="pnr d-block" class="d-block">pnr</label>
+        <input type="text" [(ngModel)]="pnr" name="pnr">
+    </div>
+      <div class="col-6">
+          <label for="localApi" class="d-block">url</label>
+        <input type="text" [(ngModel)]="localApi" name="localApi">
+    </div>
+
+
+  </div>
+  <ul class="list-group my-3" *ngFor="let flightClass of viewModel.flightClasses">
+    <h2>{{flightClass.name}}</h2>
+    <li *ngFor="let link of flightClass.links" class="list-group-item ">
+      <a [href]="link.pnr ? localApi + fixed + link.url + pnr : localApi + fixed + link.url"
+        target="_blank">{{link.title}}</a>
+    </li>
+  </ul>
+</div>

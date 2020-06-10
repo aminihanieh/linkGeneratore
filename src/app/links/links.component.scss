@@ -1,0 +1,36 @@
+@import '../../assets/_help/color';
+
+
+ul {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  h2{
+      color: white;
+      padding: 0;
+      margin: 10px;
+  }
+
+  li {
+    background-color: $oddLinks;
+    text-align: center;
+
+    &:nth-child(even) {
+      background-color: $evenLinks;
+
+      a {
+        color: $oddLinks !important;
+
+      }
+    }
+
+    a {
+      color: $evenLinks !important;
+      text-decoration: none;
+      font-size: 18px;
+      margin: auto;
+    }
+
+
+  }
+}
