@@ -11,13 +11,14 @@ type Links = viewModel.LinksProperties;
 export class LinksComponent  {
 
   localApi='http://192.168.1.70:4200/';
-  selectedPnr: string ;
+  selectedPnr: string = "VGV5M4";
   fixed='Spa/fa/';
 
   viewModel:Links ;
   flightClass = FlightClass;
 
   pnrList=[
+    "VGV5M4",
     "C63NJE",
     "V22OYW",
     "G58X63",

@@ -13,27 +13,27 @@ export class GetLinksService {
       name:FlightClass.CharterFlight,
       links:[
         {
-          url:'CharterFlight/B2M/AddPassengerToBooking/Flight/',
+          url:'B2M/Flight/Charter/Booking/AddPassengerToBooking/Flight/',
           title:'AddPassengerToBooking',
           pnr:true
         },
         {
-          url:'CharterFlight/B2M/ReplaceBookingSegment/Segment/',
+          url:'B2M/Flight/Charter/Booking/ReplaceBookingSegmen/Segment/',
           title:'ReplaceBookingSegment',
           pnr:true
         },
         {
-          url:'CharterFlight/B2M/ChangeBookingSegment/Segment/',
+          url:'B2M/Flight/Charter/Booking/ChangeBookingSegment/Segment/',
           title:'ChangeBookingSegment',
           pnr:true
         },
         {
-          url:'CharterFlight/B2M/AddSegmentToBooking/Passenger/',
+          url:'B2M/Flight/Charter/Booking/AddSegmentToBooking/Passenger/',
           title:'AddSegmentToBooking',
           pnr:true
         },
         {
-          url:'CharterFlight/B2M/ConfirmOpenSegment/Passengers/',
+          url:'B2M/Flight/Charter/Booking/ConfirmOpenSegment/Passengers/',
           title:'ConfirmOpenSegment',
           pnr:true
         },
