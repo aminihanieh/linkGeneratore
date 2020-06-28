@@ -1,8 +1,6 @@
 declare namespace viewModel {
 
   interface LinksProperties {
-    bookingPnr: string;
-
     flightClasses: FlightClass[];
   }
 

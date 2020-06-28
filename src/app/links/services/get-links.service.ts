@@ -8,9 +8,6 @@ type Links = viewModel.LinksProperties;
 export class GetLinksService {
   
   links:Links ={
-    bookingPnr: 'J2YRVW',
-
-
     flightClasses:[
       {
       name:FlightClass.CharterFlight,
@@ -74,6 +71,16 @@ export class GetLinksService {
           url:'FederatedFlight/B2M/ChangeContactInformation/',
           title:'ChangeContactInformation',
           pnr:true
+        }
+      ]
+    },
+      {
+      name:FlightClass.NoneFlight,
+      links:[
+        {
+          url:'B2M/GozaresheAmalKardeForosh',
+          title:'GozaresheAmalKardeForosh',
+          pnr:false
         }
       ]
     },
