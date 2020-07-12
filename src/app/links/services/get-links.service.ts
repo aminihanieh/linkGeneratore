@@ -38,7 +38,7 @@ export class GetLinksService {
           pnr:true
         },
         {
-          url:'CharterFlight/B2M/RevenueManagement/Sale',
+          url:'B2M/Flight/Charter/RevenueManagement/Sale',
           title:'RevenueManagement',
           pnr:false
         }
@@ -47,13 +47,9 @@ export class GetLinksService {
       {
       name:FlightClass.WebServiceFlight,
       links:[
-        {
-          url:'WebServiceFlight/B2M/Dashboard',
-          title:'Dashboard',
-          pnr:false
-        },
+      
          {
-          url:'WebServiceFlight/B2M/BookingManagement/Flight/',
+          url:'B2M/Flight/WebService/BookingManagement/FlightList',
           title:'BookingManagement',
           pnr:false
         },
@@ -78,7 +74,7 @@ export class GetLinksService {
       name:FlightClass.NoneFlight,
       links:[
         {
-          url:'B2M/GozaresheAmalKardeForosh',
+          url:'B2M/Booking/GozaresheAmalKardeForosh',
           title:'GozaresheAmalKardeForosh',
           pnr:false
         }
